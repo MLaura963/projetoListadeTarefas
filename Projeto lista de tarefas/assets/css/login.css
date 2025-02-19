@@ -1,0 +1,53 @@
+
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    background-color: #daa2a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 1rem;
+}
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    display: block;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn {
+    background-color: #585858;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #f2849e;
+}
